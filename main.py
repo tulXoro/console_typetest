@@ -21,7 +21,7 @@ cursor = 0
 
 # helper functions
 def printSentence():
-  print("Current time: ", current_time-start_time)
+  print("Current time: ", round(current_time-start_time, 2), "seconds")
   print("".join(sentence))
 
 def setColor(index, color, flag="on_yellow"):
@@ -60,7 +60,7 @@ while True:
   clear()
   
   if val == 1:
-    print("Congrats! Final time is:", current_time-start_time)
+    print("Congrats! Final time is:", round(current_time-start_time, 2), "seconds")
     sleep(1)
     print("Press any key to restart...")
     k = readkey()
