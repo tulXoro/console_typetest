@@ -2,7 +2,7 @@
 from readchar import readkey, key
 from replit import clear
 from termcolor import cprint, colored
-from time import time
+from time import time, sleep
 from random import randint
 
 with open("sentences.txt", "r") as file:
@@ -53,11 +53,15 @@ while True:
   k = colored(readkey(), "yellow", "on_yellow")
   if k == sentence[cursor]:
     val = setCursor()
+
+  if cursor != 0:
     current_time = time()
+    
   clear()
   
   if val == 1:
     print("Congrats! Final time is:", current_time-start_time)
+    sleep(1)
     print("Press any key to restart...")
     k = readkey()
     # Reset everything
