@@ -6,3 +6,4 @@ Random sentence.
 I wonder if they really knew about it.
 Where can I find that bacon?
 My name is Bob. Bob Jeffer.
+for i in range(len(array)): print(array)
