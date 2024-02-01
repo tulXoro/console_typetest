@@ -5,7 +5,10 @@ This is a simple application that mimicks a typing test in most websites. I buil
 You may use this project however you see fit.
 
 # How to start
-Ensure you have [Python](https://www.python.org/downloads/) installed, and optionally use an IDE. Clone the repository and run the game with `python3 main.py`. Add sentences into `sentences.txt` and run the program. The timer does not start until you correctly start typing the first letter.
+Ensure you have [Python](https://www.python.org/downloads/) installed and optionally use an IDE. If you do not have the right version of Python, you should upgrade/downgrade as necessary.
+Clone the repository with `git clone <url>`.
+Install the necessary dependencies `pip install .`. 
+Run the game with `python3 main.py`. 
 
 # How to play
 Keep typing until you finish the sentence.
